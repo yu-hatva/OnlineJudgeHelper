@@ -288,10 +288,10 @@ class CodeForces(OnlineJudge):
         return 'http://codeforces.com/contest/' + self.contest_id + '/problem/' + self.problem_id
 
     def download(self):
-        html = self.download_html()
+        html = self.download_html().decode('utf-8')
         p = re.compile('<pre>(.+?)</pre>', re.M | re.S | re.I)
         result = p.findall(html)
-        n = len(result) / 2;
+        n = int(len(result) / 2);
         for index in range(n):
             input_file_name = self.get_input_file_path(index)
             output_file_name = self.get_output_file_path(index)
