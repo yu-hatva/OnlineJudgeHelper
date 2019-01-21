@@ -1,7 +1,7 @@
 # オンラインジャッジ補助スクリプト OnlineJudgeHelper(python3)
 
 ## 0. このフォークについて
-このリポジトリはnodchipさんのOnlineJudgeHelperをフォークしたのち、python2向けだったのをpython3に対応させるものです。2019-01-18現在、以下の機能のみ対応しています。
+このリポジトリはnodchipさんのOnlineJudgeHelperをフォークしたのち、python2向けだったのをpython3に対応させるものです。2019-01-21現在、以下の機能のみ対応しています。
 
 - Atcoderの入出力例ダウンロード(-d)・コンパイル＆解答チェック(--check)・提出(-s)
 - Codeforcesの入出力例ダウンロード(-d)
